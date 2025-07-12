@@ -1,0 +1,141 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 170px;
+  color: #ffffff;
+}
+
+.contact-title {
+  position: relative;
+  text-align: center;
+}
+
+.contact-title h1 {
+  padding: 0 30px;
+  font-size: 80px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contact-title img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 19px;
+  color: #f0f0f0;
+}
+
+.contact-detail a {
+  color: #00dfd8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-detail a:hover {
+  color: #007cf0;
+}
+
+.contact-icon {
+  font-size: 22px;
+  color: #00dfd8;
+}
+
+/* Right form section */
+.contact-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  padding: 14px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.contact-right input:focus,
+.contact-right textarea:focus {
+  border-color: #00dfd8;
+}
+
+.contact-right button {
+  padding: 14px 25px;
+  background: linear-gradient(135deg, #007cf0, #00dfd8);
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.contact-right button:hover {
+  background: linear-gradient(135deg, #00dfd8, #007cf0);
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(0, 223, 216, 0.5);
+}
+
+/* Footer description line */
+.contact-footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-footer p {
+  font-size: 16px;
+  color: #c0c0c0;
+  margin-top: 30px;
+}

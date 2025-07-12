@@ -1,0 +1,82 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-left: -120px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  margin-left: 400px;
+}
+
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #43C6AC 0%, #191654 100%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: -150px;
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+/* underline image on hover — ONLY visible when hovering */
+.nav-menu li::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 60px;
+  height: 8px;
+  background-image: url('../../assets/nav_underline.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-menu li:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) scaleX(1);
+}
+
+/* anchor links stay white text, no underline */
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* optional: color change on hover (if you want)
+.nav-menu li:hover p {
+  color: #43C6AC;
+  transition: 0.3s ease;
+}
+*/
