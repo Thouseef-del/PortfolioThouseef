@@ -1,7 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';  // ✅ Added import
 import './Hero.css';
-import img from './img1.jpg';
+import img from './img1.jpeg';
 import resumePDF from '../../assets/Thouseef_Resume.pdf'; 
 
 const Hero = () => {

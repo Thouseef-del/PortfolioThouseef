@@ -25,7 +25,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="about-title">
+      <div id='skill' className="about-title">
         <h1>Skills</h1>
         <img src={theme_pattern} alt="pattern" />
       </div>

@@ -139,3 +139,40 @@
   color: #c0c0c0;
   margin-top: 30px;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact {
+    margin: 80px 20px;
+  }
+
+  .contact-title h1 {
+    font-size: 50px;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contact-left {
+    text-align: center;
+  }
+
+  .contact-left h1 {
+    font-size: 40px;
+  }
+
+  .contact-details {
+    align-items: center;
+  }
+
+  .contact-detail {
+    justify-content: center;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+}
